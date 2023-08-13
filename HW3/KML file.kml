@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+
+<Document>
+
+<Style id="z1">
+	<IconStyle>
+		<Icon>
+			<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+		</Icon>
+	</IconStyle>
+</Style>
+
+<Folder>
+	<name>Campus Entrances</name>
+	
+	<Placemark>
+		<name>GavinHerbert</name>
+		<styleUrl>#z1</styleUrl>
+			<Point><coordinates>-118.2837971,34.0228818</coordinates>
+		</Point> 
+	</Placemark>
+	
+	<Placemark>
+		<name>McClintock</name>
+		<styleUrl>#z1</styleUrl>
+		<Point>
+			<coordinates>-118.2872201,34.0247915</coordinates>
+		</Point> 
+	</Placemark>
+	
+	<Placemark>
+		<name>VermontAvenue</name>
+		<styleUrl>#z1</styleUrl>
+		<Point>
+			<coordinates>-118.2912825,34.0200049</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+
+<Folder>
+	<name>Libraries</name>
+	<Placemark>
+		<name>EDM</name>
+		<styleUrl>#z1</styleUrl>
+		<Point>
+			<coordinates>-118.2843628,34.0203007</coordinates>
+		</Point>
+	</Placemark>
+		
+	<Placemark>
+		<name>Hoose</name>
+		<styleUrl>#z1</styleUrl>
+		<Point>
+			<coordinates>-118.2867108,34.0189811</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>Leavey Library</name>
+		<styleUrl>#z1</styleUrl>
+		<Point>
+			<coordinates>-118.2834896,34.0213278</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+
+<Folder>
+	<name>Waterfalls</name>
+	
+	<Placemark>
+		<name>Viterbi Fall</name>
+		<styleUrl>#z1</styleUrl>
+		<Point>
+			<coordinates>-118.2890249,34.0205463</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>AG Fall</name>
+		<styleUrl>#z1</styleUrl>
+		<Point>
+			<coordinates>-118.2904605,34.0202513</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>PFS Fall</name>
+		<styleUrl>#z1</styleUrl>
+		<Point>
+			<coordinates>-118.285371,34.0200551</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+
+<Folder>
+	<name>Eateries</name>
+	
+	<Placemark>
+		<name>Starbucks</name>
+		<styleUrl>#z1</styleUrl>
+		<Point>
+			<coordinates>-118.2825918,34.0212869</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TommysPlace</name>
+		<styleUrl>#z1</styleUrl>
+		<Point>
+			<coordinates>-118.2862929,34.0197535</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>RTHCafe</name>
+		<styleUrl>#z1</styleUrl>
+		<Point>
+			<coordinates>-118.290027,34.0199266</coordinates>
+		</Point> 
+	</Placemark>
+</Folder>
+
+<Folder>
+	<name>Home</name>
+	<Placemark>
+		<name>Home</name>
+		<styleUrl>#z1</styleUrl>
+		<Point>
+			<coordinates>-118.2883138,34.0286526</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+
+<Placemark>
+	<name>ConvexHull</name>
+		<Style><LineStyle><color>7f0000ff</color></LineStyle><PolyStyle><color>ff0000cc</color></PolyStyle></Style>
+	<Polygon>
+		<outerBoundaryIs>
+			<LinearRing>
+				<coordinates>-118.2867108,34.0189811 -118.2912825,34.0200049 -118.2883138,34.0286526 -118.2837971,34.0228818 -118.2825918,34.0212869 -118.2867108,34.0189811</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon> 
+</Placemark>
+
+<Placemark>
+	<name>Neighbour1</name>
+	<description>McClintock</description>
+	<Style><LineStyle><color>ffff0000</color><width>4</width></LineStyle></Style>
+	<LineString>
+		<coordinates>-118.2883138,34.0286526 -118.2872201,34.0247915</coordinates>
+	</LineString>
+</Placemark>
+
+<Placemark>
+	<name>Neighbour2</name>
+	<description>GavinHerbert</description>
+	<Style><LineStyle><color>ffff0000</color><width>4</width></LineStyle></Style>
+	<LineString>
+		<coordinates>-118.2883138,34.0286526 -118.2837971,34.0228818</coordinates>
+	</LineString>
+</Placemark>
+
+<Placemark>
+	<name>Neighbour3</name>
+	<description>Viterbi Fall</description>
+	<Style><LineStyle><color>ffff0000</color><width>4</width></LineStyle></Style>
+	<LineString>
+		<coordinates>-118.2883138,34.0286526 -118.2890249,34.0205463</coordinates>
+	</LineString>
+</Placemark>
+
+<Placemark>
+	<name>Neighbour4</name>
+	<description>AG Fall</description>
+	<Style><LineStyle><color>ffff0000</color><width>4</width></LineStyle></Style>
+	<LineString>
+		<coordinates>-118.2883138,34.0286526 -118.2904605,34.0202513</coordinates>
+	</LineString>
+</Placemark>
+
+</Document>
+</kml>
